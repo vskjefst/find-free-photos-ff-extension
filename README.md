@@ -18,3 +18,5 @@ This will open a few new tabs, and search for your keywords on the photo sites t
 * Unsplash
 * Pixabay
 * Kaboompics
+
+For more information about this plugin, please visit https://www.vegard.net/find-free-photos-firefox-extension/.
