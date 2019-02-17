@@ -14,6 +14,10 @@ const services = new Array(
     {
         tabId: -1,
         url: 'https://kaboompics.com/gallery?search=%q'
+    },
+    {
+        tabId: -1,
+        url: 'https://www.canva.com/photos/free/?query=%q'
     }
 );
 
