@@ -12,7 +12,7 @@ Example:
 
 `ffp mountain range`
 
-This will open a few new tabs, and search for your keywords on the photo sites the extension currently supports. Easy as pie. Please note that the extension is dumb as a rock, so it won't reuse the same tabs the if you do a new search. Instead, new tabs will be opened.
+This will open a few new tabs, and search for your keywords on the photo sites the extension currently supports. Easy as pie. The plugin will reuse tabs it has already created if they've not been closed manually.
 
 ## Supported sites
 
