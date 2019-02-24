@@ -1,5 +1,4 @@
-const services = new Array(
-    {
+const services = [{
         tabId: -1,
         url: 'https://www.pexels.com/search/%q/'
     },
@@ -18,18 +17,17 @@ const services = new Array(
     {
         tabId: -1,
         url: 'https://www.canva.com/photos/free/?query=%q'
-    }
-);
+    }];
 
 browser.omnibox.setDefaultSuggestion({
     description: `Please enter a keyword or phrase you want to search for.`
 });
 
-browser.omnibox.onInputEntered.addListener((text, disposition) => {
+browser.omnibox.onInputEntered.addListener((text) => {
     var noTabsExists = true;
-    services.forEach(function(service, index) {
+    services.forEach(function(service) {
         let searchUrl = service.url.replace('%q', text);
-        if (service.tabId != -1) {
+        if (service.tabId !== -1) {
             browser.tabs.get(service.tabId).then(
                 function() {
                     browser.tabs.update(service.tabId, {url : searchUrl}).then(function(updatedTab) {
