@@ -1,6 +1,7 @@
-const services = [{
-        tabId: -1,
-        url: 'https://www.pexels.com/search/%q/'
+const services = [
+    {
+    tabId: -1,
+    url: 'https://www.pexels.com/search/%q/'
     },
     {
         tabId: -1,
@@ -17,7 +18,12 @@ const services = [{
     {
         tabId: -1,
         url: 'https://www.canva.com/photos/free/?query=%q'
-    }];
+    },
+    {
+        tabId: -1,
+        url: 'https://search.creativecommons.org/search?q=%q&provider=&li=cc0,pdm&lt=&searchBy'
+    }
+];
 
 browser.omnibox.setDefaultSuggestion({
     description: `Please enter a keyword or phrase you want to search for.`

@@ -21,5 +21,6 @@ This will open a few new tabs, and search for your keywords on the photo sites t
 * Pixabay
 * Kaboompics
 * Canva
+* Creative Commons (only CC0 and public domain photos are displayed in the search result)
 
 For more information about this extension, please visit https://www.vegard.net/find-free-photos-firefox-extension/.
