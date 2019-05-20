@@ -17,7 +17,7 @@ const services = [
     },
     {
         tabId: -1,
-        url: 'https://www.canva.com/photos/free/?query=%q'
+        url: 'https://www.canva.com/photos/search/%q/'
     },
     {
         tabId: -1,
