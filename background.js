@@ -13,15 +13,7 @@ const services = [
     },
     {
         tabId: -1,
-        url: 'https://kaboompics.com/gallery?search=%q'
-    },
-    {
-        tabId: -1,
         url: 'https://www.canva.com/photos/search/%q/'
-    },
-    {
-        tabId: -1,
-        url: 'https://search.creativecommons.org/search?q=%q&provider=&li=cc0,pdm&lt=&searchBy'
     }
 ];
 
