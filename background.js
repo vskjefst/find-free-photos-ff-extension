@@ -14,6 +14,14 @@ const services = [
     {
         tabId: -1,
         url: 'https://www.canva.com/photos/search/%q/'
+    },
+    {
+        tabId: -1,
+        url: 'https://stocksnap.io/search/%q'
+    },
+    {
+        tabId: -1,
+        url: 'https://burst.shopify.com/photos/search?q=%q'
     }
 ];
 

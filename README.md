@@ -20,5 +20,7 @@ This will open a few new tabs, and search for your keywords on the photo sites t
 * Unsplash
 * Pixabay
 * Canva
+* StockSnap.io
+* Burst
 
 For more information about this extension, please visit https://www.vegard.net/find-free-photos-firefox-extension/.
