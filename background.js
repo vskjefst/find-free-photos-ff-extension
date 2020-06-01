@@ -5,7 +5,7 @@ const services = [
     },
     {
         tabId: -1,
-        url: 'https://unsplash.com/search/photos/%q'
+        url: 'https://unsplash.com/s/photos/%q'
     },
     {
         tabId: -1,
